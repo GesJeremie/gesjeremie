@@ -1,0 +1,22 @@
+<div class="experience">
+  <div class="experience__background"></div>
+  <div class="grid grid--center grid--flush">
+    <div class="grid__cell grid__cell--55">
+      <div class="experience__details">
+        <h3 class="heading heading--1 experience__company"><%= company %></h3>
+        <div class="experience__location">
+          <%= image_tag flag, class: 'experience__flag' %>
+          <span class="experience__location-name"><%= location %></span>
+        </div>
+        <div class="experience__role"><%= role %> -</div>
+        <div class="experience__date"><%= date %></div>
+        <div class="experience__about">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+    <div class="grid__cell grid__cell--45 experience__cover">
+      <%= image_tag cover, class: 'experience__cover-image' %>
+    </div>
+  </div>
+</div>

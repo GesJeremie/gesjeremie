@@ -1,0 +1,13 @@
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+
+.layout {
+    margin: 0 auto;
+    padding: 0 $spacing-unit;
+    max-width: 1140px;
+
+    @include respond-to('medium') {
+        width: 100%;
+    }
+}

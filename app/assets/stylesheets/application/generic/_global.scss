@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background: $white;
+}
+
+body {
+    color: $gray--light;
+    font-size: 21px;
+    font-family: $font-primary;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+}
+
+input:focus,
+input:active {
+    outline: 0;
+}
+
+strong {
+    font-weight: bold;
+
+    .hero__about & {
+        color: $black;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin-bottom: triple($spacing-unit);
+    line-height: triple($spacing-unit);
+    font-size: 21px;
+
+    .experience__about & {
+        margin-bottom: double($spacing-unit);
+        font-size: 17px;
+    }
+}
+
+p:last-of-type {
+    .experience__about & {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,436 @@
+[
+    {
+      "slug": "queal",
+      "name": "Queal",
+      "website": "https://queal.com/",
+      "facebook": "https://web.facebook.com/quealeurope",
+      "madeIn": "NL"
+    },
+
+    {
+      "slug": "bertrand",
+      "name": "Bertrand",
+      "website": "https://bertrand.bio/",
+      "facebook": "https://web.facebook.com/bertrand.shake",
+      "madeIn": "DE"
+    },
+
+    {
+      "slug": "ample",
+      "name": "Ample",
+      "website": "https://www.amplemeal.com",
+      "facebook": "https://www.facebook.com/amplemeal/",
+      "madeIn": "US"
+    },
+
+    {
+      "slug": "jimmyjoy",
+      "name": "Jimmyjoy",
+      "website": "https://www.jimmyjoy.com/",
+      "facebook": "https://web.facebook.com/jimmyjoyfood/",
+      "madeIn": "NL"
+    },
+
+    {
+      "slug": "ketolent",
+      "name": "Ketolent",
+      "website": "https://ketolent.com/",
+      "facebook": "https://web.facebook.com/ketolent/",
+      "madeIn": "US"
+    },
+
+    {
+      "slug": "lembas",
+      "name": "Lembas",
+      "website": "https://lembas.sg/",
+      "facebook": "https://web.facebook.com/lembas.sg",
+      "madeIn": "SG"
+    },
+
+    {
+      "slug": "huel",
+      "name": "Huel",
+      "website": "https://huel.com/",
+      "facebook": "https://web.facebook.com/gethuel",
+      "madeIn": "GB"
+    },
+
+    {
+      "slug": "biolent",
+      "name": "Biolent",
+      "website": "https://biolent.ca/",
+      "facebook": "https://web.facebook.com/Biolentofficial/",
+      "madeIn": "CA"
+    },
+
+    {
+      "slug": "tudo",
+      "name": "Tudo",
+      "website": "https://www.tudoyou.com/",
+      "facebook": "https://web.facebook.com/tudomeals",
+      "madeIn": "CA"
+    },
+
+    {
+      "slug": "holfood",
+      "name": "Holfood",
+      "website": "https://holfood.com/",
+      "facebook": "https://web.facebook.com/holfood",
+      "madeIn": "CA"
+    },
+
+    {
+      "slug": "nutberg",
+      "name": "Nutberg",
+      "website": "https://nutberg.com/",
+      "facebook": "https://web.facebook.com/nutbergmeal/",
+      "madeIn": "CZ"
+    },
+
+    {
+      "slug": "aussielent",
+      "name": "Aussielent",
+      "website": "https://aussielent.com.au/",
+      "facebook": false,
+      "madeIn": "AU"
+    },
+
+    {
+      "slug": "myprotein",
+      "name": "Myprotein",
+      "website": "https://www.myprotein.com/",
+      "facebook": "https://www.facebook.com/MyproteinUK/",
+      "madeIn": "GB"
+    },
+
+    {
+      "slug": "purelent",
+      "name": "Purelent",
+      "website": "https://purelent.eu/",
+      "facebook": "https://www.facebook.com/Purelent/",
+      "madeIn": "NL"
+    },
+
+    {
+      "slug": "jake",
+      "name": "Jake",
+      "website": "https://jakefood.com",
+      "facebook": "https://www.facebook.com/jakeshakeeu",
+      "madeIn": "NL"
+    },
+
+    {
+      "slug": "vexx",
+      "name": "Vexx",
+      "website": "http://vexx.eu/",
+      "facebook": false,
+      "madeIn": "NL"
+    },
+
+    {
+      "slug": "bivo",
+      "name": "Bivo",
+      "website": "https://www.bivo.it/",
+      "facebook": "https://www.facebook.com/bivosoylent",
+      "madeIn": "IT"
+    },
+
+    {
+      "slug": "bloom",
+      "name": "Bloom",
+      "website": "https://bloomfoods.eu/",
+      "facebook": "https://www.facebook.com/bloomfoodseu/",
+      "madeIn": "NL"
+    },
+
+    {
+      "slug": "lently",
+      "name": "Lently",
+      "website": "https://getlently.com/",
+      "facebook": "https://www.facebook.com/getlently",
+      "madeIn": "NL"
+    },
+
+    {
+      "slug": "tsogo",
+      "name": "Tsogo",
+      "website": "http://www.tsogo.com/",
+      "facebook": "https://www.facebook.com/tsogolife/",
+      "madeIn": "US"
+    },
+
+    {
+      "slug": "functional-formularies",
+      "name": "Functional Formularies",
+      "website": "http://www.functionalformularies.com/",
+      "facebook": "https://www.facebook.com/FunctionalFormularies",
+      "madeIn": "US"
+    },
+
+    {
+      "slug": "feed",
+      "name": "Feed",
+      "website": "https://www.feedsmartfood.com/",
+      "facebook": "https://www.facebook.com/feedsmartfood/",
+      "madeIn": "FR"
+    },
+
+    {
+      "slug": "shake2day",
+      "name": "Shake2Day",
+      "website": "https://www.shake2day.com/en/",
+      "facebook": "https://www.facebook.com/Shake2Day-UK-115686412391413/",
+      "madeIn": "NL"
+    },
+
+    {
+      "slug": "bentoblend",
+      "name": "Bentoblend",
+      "website": "http://www.bentoblend.com/",
+      "facebook": "https://www.facebook.com/bentoblend/",
+      "madeIn": "SG"
+    },
+
+    {
+      "slug": "pulve",
+      "name": "Pulve",
+      "website": "https://www.pulve.com/",
+      "facebook": "https://www.facebook.com/Pulve-489662411203098/",
+      "madeIn": "NL"
+    },
+
+    {
+      "slug": "saturo",
+      "name": "Saturo",
+      "website": "https://www.saturo.eu/",
+      "facebook": "https://www.facebook.com/saturofoods/",
+      "madeIn": "AU"
+    },
+
+    {
+      "slug": "soylent",
+      "name": "Soylent",
+      "website": "https://www.soylent.com/",
+      "facebook": "https://www.facebook.com/Soylent/",
+      "madeIn": "US"
+    },
+
+    {
+      "slug": "futricio",
+      "name": "Futricio",
+      "website": "https://futricio.eu/",
+      "facebook": "https://www.facebook.com/futricio/",
+      "madeIn": "NL"
+    },
+
+    {
+      "slug": "nano",
+      "name": "Nano",
+      "website": "https://www.eatnano.eu/",
+      "facebook": "https://www.facebook.com/eatnanoEU",
+      "madeIn": "NL"
+    },
+
+    {
+      "slug": "bloom",
+      "name": "Bloom",
+      "website": "https://bloomfoods.eu/en/",
+      "facebook": "https://www.facebook.com/bloomfoodseu/",
+      "madeIn": "NL"
+    },
+
+    {
+      "slug": "yfood",
+      "name": "Yfood",
+      "website": "https://www.yfood.eu/",
+      "facebook": "https://facebook.com/yfooddrink",
+      "madeIn": "DE"
+    },
+
+    {
+      "slug": "feasy",
+      "name": "Feasy",
+      "website": "https://www.drinkfeasy.com/",
+      "facebook": "https://www.facebook.com/Feasy-1281043551956884/",
+      "madeIn": "US"
+    },
+
+    {
+      "slug": "anapur",
+      "name": "Anapur",
+      "website": "http://www.anapur.eu/",
+      "facebook": "https://www.facebook.com/MyAnaPur/",
+      "madeIn": "CZ"
+    },
+
+    {
+      "slug": "ambronite",
+      "name": "Ambronite",
+      "website": "https://ambronite.com/",
+      "facebook": "https://www.facebook.com/Ambronite",
+      "madeIn": "FI"
+    },
+
+    {
+      "slug": "mana",
+      "name": "Mana",
+      "website": "https://drink-mana.com/en/",
+      "facebook": "https://www.facebook.com/drinkmana/",
+      "madeIn": "CZ"
+    },
+
+    {
+      "slug": "super-body-fuel",
+      "name": "Super Body Fuel",
+      "website": "http://superbodyfuel.com/",
+      "facebook": false,
+      "madeIn": "US"
+    },
+
+    {
+      "slug": "genesis-foods",
+      "name": "Genesis Foods",
+      "website": "https://www.genesisfoods.eu/",
+      "facebook": false,
+      "madeIn": "GB"
+    },
+
+    {
+      "slug": "your-popup-meal",
+      "name": "Your Popup Meal",
+      "website": "https://www.popupmeal.eu/",
+      "facebook": "https://www.facebook.com/yourpopupmeal/",
+      "madeIn": "EE"
+    },
+
+    {
+      "slug": "ketoone",
+      "name": "Ketoone",
+      "website": "https://www.ketoone.com/",
+      "facebook": false,
+      "madeIn": "US"
+    },
+
+    {
+      "slug": "smeal",
+      "name": "Smeal",
+      "website": "https://www.smeal.fr/",
+      "facebook": "https://www.facebook.com/smeal.fr",
+      "madeIn": "FR"
+    },
+
+    {
+      "slug": "vitaline",
+      "name": "Vitaline",
+      "website": "https://vitaline.shop/",
+      "facebook": "https://www.facebook.com/vitaline.fr/",
+      "madeIn": "FR"
+    },
+
+    {
+      "slug": "kachava",
+      "name": "Kachava",
+      "website": "https://www.kachava.com",
+      "facebook": "https://www.facebook.com/kachavatribe/",
+      "madeIn": "US"
+    },
+
+    {
+      "slug": "ultim",
+      "name": "Ultim",
+      "website": "https://ultim.me/shop/",
+      "facebook": "http://facebook.com/ultim.me",
+      "madeIn": "AU"
+    },
+
+    {
+      "slug": "joulefuel",
+      "name": "Joulefuel",
+      "website": "https://www.joulefuel.me/",
+      "facebook": "http://www.facebook.com/joulefuel",
+      "madeIn": "US"
+    },
+
+    {
+      "slug": "grubsub",
+      "name": "Grubsub",
+      "website": "http://www.grubsub.com/",
+      "facebook": false,
+      "madeIn": "US"
+    },
+
+    {
+      "slug": "purition",
+      "name": "Purition",
+      "website": "https://www.purition.co.uk/",
+      "facebook": "https://www.facebook.com/puritionuk/",
+      "madeIn": "GB"
+    },
+
+    {
+      "slug": "runtime",
+      "name": "Runtime",
+      "website": "https://runtime.gg/",
+      "facebook": "https://www.facebook.com/Runtimegg/",
+      "madeIn": "DE"
+    },
+
+    {
+      "slug": "primalkind",
+      "name": "Primalkind",
+      "website": "http://primalkind.com/",
+      "facebook": "https://www.facebook.com/primalkind/",
+      "madeIn": "AU"
+    },
+
+    {
+      "slug": "vitamin-food",
+      "name": "Vitamin Food",
+      "website": "https://vitaminfood.com/en/shop/",
+      "facebook": "https://www.facebook.com/vitaminfood/",
+      "madeIn": "NL"
+    },
+
+    {
+      "slug": "vitalhouse",
+      "name": "Vitalhouse",
+      "website": "https://vitalhouse.co/",
+      "facebook": "https://www.facebook.com/shopvitalhouse/",
+      "madeIn": "CA"
+    },
+
+    {
+      "slug": "satislent",
+      "name": "Satislent",
+      "website": "https://www.satislent.com/en/",
+      "facebook": "https://www.facebook.com/satislent/",
+      "madeIn": "ES"
+    },
+
+    {
+
+      "slug": "paca",
+      "name": "Paca",
+      "website": "https://pacafood.com/",
+      "facebook": "https://www.facebook.com/pacafood/",
+      "madeIn": "SE"
+    },
+
+    {
+
+      "slug": "powder-matter",
+      "name": "Powder Matter",
+      "website": "https://powdermatter.com/",
+      "facebook": "https://www.facebook.com/Powdermatter-181534749131483/",
+      "madeIn": "CZ"
+    },
+
+    {
+
+      "slug": "mi-mix",
+      "name": "Mi Mix",
+      "website": "https://mimixmeals.com/",
+      "facebook": "https://facebook.com/drinkmimix",
+      "madeIn": "US"
+    }
+]

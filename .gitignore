@@ -1,0 +1,31 @@
+# Environment normalization:
+/.bundle
+/vendor/bundle
+
+# If using bower-rails ignore default bower_components path bower.json files
+/vendor/assets/bower_components
+*.bowerrc
+bower.json
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Don't include storage
+storage
+
+# Common
+.DS_Store
+node_modules
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key

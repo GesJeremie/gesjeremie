@@ -1,0 +1,53 @@
+/*------------------------------------*\
+    #NAVBAR
+\*------------------------------------*/
+
+$navbar-delimiter-color: #eaeaea !default;
+
+.navbar {}
+
+    .navbar__wrapper {
+        margin-top: double($spacing-unit);
+        margin-bottom: $spacing-unit * 5;
+    }
+
+        .navbar__logo {
+            display: inline-block;
+            position: relative;
+            margin-right: double($spacing-unit);
+            vertical-align: middle;
+
+            &:after {
+                position: absolute;
+                top: 20px;
+                right: -20px;
+                width: 1px;
+                height: 25px;
+                background: $navbar-delimiter-color;
+                content: '';
+            }
+        }
+
+            .navbar__logo-image {
+                width: 60px;
+            }
+
+        .navbar__social {
+            display: inline-block;
+            margin-left: double($spacing-unit);
+            font-size: 16px;
+            vertical-align: middle;
+        }
+
+            .navbar__social-link {
+                text-decoration: none;
+            }
+
+                .navbar__social-icon {
+                    margin-right: $spacing-unit;
+                    width: 20px;
+                }
+
+        .navbar__actions {
+            text-align: right;
+        }

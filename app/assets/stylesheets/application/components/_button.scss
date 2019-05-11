@@ -1,0 +1,92 @@
+/*------------------------------------*\
+    #BUTTON
+\*------------------------------------*/
+
+$button-filters-hover-bg-color:                 darken($green, 5%) !default;
+$button-show-results-filters-hover-bg-color:    darken($green, 5%) !default;
+$button-fixed-width:                            150px !default;
+
+
+.button {
+    display: inline-block;
+    margin: 0;
+    margin-top: double($spacing-unit);
+    padding: 15px 25px;
+    color: $white;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    background-color: $black;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: $box-shadow--button;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.button + .button {
+    margin-left: 0;
+
+    @include respond-to('medium') {
+        margin-left: $spacing-unit;
+    }
+}
+
+.button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.button--secondary {
+    background-color: $blue;
+}
+
+.button--small {
+    padding: $spacing-unit;
+}
+
+.button--large {
+    padding: double($spacing-unit) quadruple($spacing-unit);
+    font-size: 16px;
+}
+
+.button--full {
+    width: 100%;
+}
+
+.button--capitalized {
+    text-transform: capitalize;
+}
+
+.button--uppercase {
+    text-transform: uppercase;
+}
+
+.button--no-margin {
+    margin: 0;
+}
+
+.button--no-box-shadow {
+    box-shadow: none;
+}
+
+.button--fixed-width {
+    width: $button-fixed-width;
+    max-width: $button-fixed-width;
+}
+
+.button--with-arrow {
+    &:after {
+        display: inline-block;
+        padding-left: $spacing-unit;
+        font-size: 16px;
+        content: '\2192';
+        vertical-align: middle;
+    }
+}
+
+.button--with-icon {
+    vertical-align: middle;
+}
+

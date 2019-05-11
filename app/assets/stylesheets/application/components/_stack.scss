@@ -1,0 +1,54 @@
+/*------------------------------------*\
+    #STACK
+\*------------------------------------*/
+
+.stack {
+    margin-top: triple($spacing-unit);
+}
+
+    .stack__section {
+        margin: 0 auto;
+        margin-bottom: double($spacing-unit);
+        width: 80%;
+        border: 1px solid darken($gray--x-light, 5%);
+        border-radius: 5px;
+    }
+
+        .stack__section-title {
+            padding: $spacing-unit * 1.5;
+            color: $black;
+            font-size: 18px;
+            text-align: left;
+            background-color: $gray--x-light;
+            border-bottom: 1px solid darken($gray--x-light, 5%);
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+
+        .stack__list {}
+
+            .stack__item {
+                margin: double($spacing-unit);
+                text-align: center;
+                border-radius: 5px;
+            }
+
+                .stack__item-image-container {
+                    position: relative;
+                    margin: 0 auto;
+                    width: 80px;
+                    height: 80px;
+                }
+
+                .stack__item-image {
+                    @include center;
+                    width: 55px;
+                    height: 55px;
+                }
+
+                .stack__item-title {
+                    display: block;
+                    color: $black;
+                    font-size: 16px;
+                    text-transform: capitalize;
+                }

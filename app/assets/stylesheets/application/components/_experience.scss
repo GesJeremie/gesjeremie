@@ -1,0 +1,78 @@
+/*------------------------------------*\
+    #EXPERIENCE
+\*------------------------------------*/
+
+$experience-border-radius:  $border-radius !default;
+$experience-background-gap: 40px !default;
+
+.experience {
+    position: relative;
+    margin-bottom: $spacing-unit * 10;
+    text-align: left;
+    background: $white;
+    border-radius: $experience-border-radius;
+    box-shadow: $box-shadow--experience;
+}
+
+    .experience__background {
+        position: absolute;
+        top: -$experience-background-gap;
+        right: -$experience-background-gap;
+        bottom: $experience-background-gap * 2.5;
+        left: -$experience-background-gap;
+        z-index: -1;
+        background-color: $brown;
+        border-top-right-radius: $experience-border-radius;
+        border-top-left-radius: $experience-border-radius;
+    }
+
+        .experience__details {
+            padding: double($spacing-unit);
+        }
+
+            .experience__company {
+                margin-top: $spacing-unit;
+                color: $black;
+            }
+
+            .experience__location {
+                margin-bottom: halve($spacing-unit);
+                color: $black;
+                vertical-align: middle;
+            }
+
+                .experience__flag {
+                    width: 20px;
+                    vertical-align: middle;
+                }
+
+                .experience__location-name {
+                    vertical-align: middle;
+                }
+
+            .experience__role {
+                display: inline-block;
+                margin-top: $spacing-unit * 1.5;
+                margin-bottom: halve($spacing-unit);
+                color: $black;
+            }
+
+            .experience__date {
+                display: inline-block;
+                margin-bottom: $spacing-unit * 1.5;
+                color: $yellow;
+            }
+
+            .experience__about {
+                font-size: 18px;
+            }
+
+        .experience__cover {
+            font-size: 0;
+        }
+
+            .experience__cover-image {
+                border-top-right-radius: $experience-border-radius;
+                border-bottom-right-radius: $experience-border-radius;
+                object-fit: cover;
+            }

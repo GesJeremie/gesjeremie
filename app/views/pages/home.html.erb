@@ -1,0 +1,197 @@
+<div class="navbar">
+  <div class="navbar__wrapper">
+    <div class="grid grid--middle">
+      <div class="grid__cell grid__cell--50">
+        <div class="navbar__logo">
+          <%= image_tag 'logo.png', class: 'navbar__logo-image' %>
+        </div>
+        <div class="navbar__social">
+          <%= link_to config.social.facebook, class: 'navbar__social-link' do %>
+            <%= inline_svg('social/facebook.svg', class: 'navbar__social-icon') %>
+          <% end %>
+
+          <%= link_to config.social.stackoverflow, class: 'navbar__social-link' do %>
+            <%= inline_svg('social/stackoverflow.svg', class: 'navbar__social-icon') %>
+          <% end %>
+
+          <%= link_to config.social.github, class: 'navbar__social-link' do %>
+            <%= inline_svg('social/github.svg', class: 'navbar__social-icon') %>
+          <% end %>
+
+          <%= mail_to config.social.email, class: 'navbar__social-link' do %>
+            <%= inline_svg('social/gmail.svg', class: 'navbar__social-icon') %>
+          <% end %>
+
+          <%= link_to 'https://medium.com/@jeremieges', class: 'navbar__social-link' do %>
+            <%= inline_svg('social/medium.svg', class: 'navbar__social-icon') %>
+          <% end %>
+        </div>
+      </div>
+      <div class="grid__cell grid__cell--50">
+        <div class="navbar__actions">
+          <%= link_to 'Contact Me', 'mailto:ges.jeremie@gmail.com', class: 'button' %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="grid grid--center grid--middle">
+    <div class="grid__cell grid__cell--50">
+      <div class="hero__content">
+        <h1 class="heading heading--1">Hey,<br/> Nice to meet you.</h1>
+        <div class="hero__about">
+          <p>I'm a <strong>Senior Full-Stack Developer</strong> with ~10 years experience born in France and currently living in Canada - Vancouver, BC.</p>
+          <p>I help your team ship great web applications, on time, with a nice look and feel.</p>
+          <p>
+            When I'm not working with you - I spin up my little side projects:
+            <%= link_to 'Complete Food', 'https://completefood.guru/', class: 'link' %>,
+            <%= link_to 'Moonbeat', 'https://moonbeat.io/', class: 'link' %>,
+            <%= link_to 'WeedTalks', 'https://weedtalks.io/', class: 'link' %>,
+            <%= link_to 'Baby Sitting Bordeaux', 'https://babysittingbordeaux.fr/', class: 'link' %>
+            ...
+          </p>
+          <p>
+            ... or I contribute <em>(a tad)</em> to open-source:
+            <%= link_to 'Faker Elixir', 'https://github.com/GesJeremie/faker-elixir', class: 'link' %>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="grid__cell grid__cell--50">
+      <div class="hero__cover">
+        <%= image_tag 'me.png', class: 'hero__cover-image' %>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="section section--brands">
+  <div class="brands">
+    <ul class="brands__list">
+      <% config.brands.each do |brand| %>
+        <li class="brands__item">
+          <%= image_tag "brands/#{brand}.png", class: 'brands__item-image' %>
+          </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
+<div class="section section--stack">
+  <h2 class="heading heading--2 section__title">Skills</h2>
+  <div class="stack">
+    <%= render 'stack_section', title: 'Application & Data', stack: config.stack.application %>
+    <%= render 'stack_section', title: 'Utilities', stack: config.stack.utilities %>
+    <%= render 'stack_section', title: 'DevOps', stack: config.stack.devops %>
+    <%= render 'stack_section', title: 'Business Tools', stack: config.stack.business %>
+  </div>
+</div>
+
+<div class="section section--experience">
+  <h2 class="heading heading--2 section__title">Experience</h2>
+
+  <%= render layout: 'experience', locals: {
+      company: 'Weblinc',
+      location: 'Vancouver, Canada',
+      role: 'Full-Stack Developer',
+      date: 'October 2016 - Present',
+      cover: 'experience/weblinc.jpg',
+      flag: 'flags/canada.png'
+    } do %>
+    <p>I'm part of the Front-End and Back-End development of +15 online stores on our proprietary platform <%= link_to 'Workarea', 'https://www.workarea.com/', class: 'link link--secondary' %>.</p>
+    <p>
+      We create rich and meaningul shopping experiences for our multi-million turnover customers such as:
+      <%= link_to 'Sanrio', 'https://www.sanrio.com/', class: 'link link--secondary' %>,
+      <%= link_to 'Bhldn', 'https://www.bhldn.com/', class: 'link link--secondary' %>,
+      <%= link_to 'Lonely Planet', 'https://shop.lonelyplanet.com/', class: 'link link--secondary' %>,
+      <%= link_to 'Heineken', 'https://heinekenusa.com', class: 'link link--secondary' %>,
+      <%= link_to '...', 'https://www.workarea.com/pages/ecommerce-customer-stories', class: 'link link--secondary' %>
+    </p>
+  <% end %>
+
+  <%= render layout: 'experience', locals: {
+      company: 'FreeeWifi',
+      location: 'Thessaloniki, Greece',
+      role: 'Full-Stack Developer',
+      date: 'April 2016 - October 2016',
+      cover: 'experience/freee_wifi.jpg',
+      flag: 'flags/greece.png'
+    } do %>
+
+    <p>Full Stack developer in a team of three developers. I built an API in Python / Flask and handled everything from the architecture to its own implementation.</p>
+    <p>I migrated a massive Front-End Application (ExtJS) to EmberJS and improved its maintainability and look & feel.
+  <% end %>
+
+  <%= render layout: 'experience', locals: {
+      company: 'Gotham Partners LLC',
+      location: 'Baton Rouge, United States',
+      role: 'Front-End Developer',
+      date: 'February 2014 - February 2016',
+      cover: 'experience/virtual_safety.jpg',
+      flag: 'flags/united_states.png'
+    } do %>
+
+    <p>Front-End developer in a team of four Ruby on Rails developers. We created three full stack ruby SaaS applications and handled everything from design and planning to deployment.</p>
+
+    <p>I personally dealt with the architecture of the Front-End. I had to overcome obstacles such as constantly evolving software requirements based on user’s needs while keeping the code base clean and maintainable.</p>
+  <% end %>
+
+
+  <%= render layout: 'experience', locals: {
+      company: 'La Petite Box SAS',
+      location: 'Bordeaux, France',
+      role: 'Co-Founder',
+      date: 'February 2014 - February 2016',
+      cover: 'experience/lapetitebox.jpg',
+      flag: 'flags/france.png'
+    } do %>
+
+    <p>I created a monthly delivery box company with two other associates and one graphic artist. I was the Front-End developer and in charge of the full UI/UX of our homemade e-commerce platform.</p>
+    <p>
+      I had to fully manage the company for three months. My responsibilities included: Dealing with our partners to get low prices on our orders, manage the stock, handling the customer delivery logistics and the preparation of the boxes.
+    </p>
+  <% end %>
+
+  <%= render layout: 'experience', locals: {
+      company: 'Alcool Arcachon',
+      location: 'Arcachon, France',
+      role: 'Co-Founder',
+      date: 'May 2013 - Sept 2013',
+      cover: 'experience/alcool_arcachon.jpg',
+      flag: 'flags/france.png'
+    } do %>
+
+    <p>In my hometown it was legal to sell alcohol late into the night, but most stores did not stay open late. There was a need that no one was servicing. I teamed up with one other associate and created a web based alcohol delivery service.</p>
+
+    <p>We leveraged the power of social media in combination with an easy to use web interface that made ordering alcohol online easier than ordering a pizza.</p>
+
+    <p>We started with a Minimum Valuable Product and after seeing success we began growing the usability of the ordering platform.</p>
+
+    <p>Aside from improving the website, we created an App that customers could use as well to order from their phones.</p>
+
+    <p>The company became very profitable very quickly. We however, found it difficult to grow outside of the local area for legal reasons. After overcoming all the technological challenges we started to grow bored with the business and ultimately sold the company for a nice profit.</p>
+  <% end %>
+
+  <%= render layout: 'experience', locals: {
+      company: 'Agence Volt',
+      location: 'Bordeaux, France',
+      role: 'Co-Founder',
+      date: 'Nov 2012 - Nov 2013',
+      cover: 'experience/agence_volt.jpg',
+      flag: 'flags/france.png'
+    } do %>
+
+    <p>I created an outsourcing code company with one other associate. I was in charge of the Back-End and the Front-End for three big web-projects.</p/>
+    <p>They were made within one year and stayed scalable despite lots of changes in the user stories.</p>
+  <% end %>
+
+
+</div>
+
+<div class="footer">
+  <p>Wow, you reached the footer ... and hopefully we are now best friends.<p>
+  <%= link_to 'Hit me up :)', 'mailto:ges.jeremie@gmail.com', class: 'button button--large button--secondary' %>
+</div>

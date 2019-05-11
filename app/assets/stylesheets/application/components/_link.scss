@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    #LINK
+\*------------------------------------*/
+
+%link,
+.link {
+    color: $blue;
+    text-decoration-style: dotted;
+}
+
+.link--secondary {
+    text-decoration-style: solid;
+}
+
+.link--with-spacer {
+    text-decoration: none;
+    border-bottom: 1px solid $blue;
+}
+
+.link--disabled {
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+        cursor: not-allowed;
+    }
+}

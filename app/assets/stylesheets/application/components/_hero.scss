@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    #HERO
+\*------------------------------------*/
+
+$hero-gap-content-and-cover: double($spacing-unit) !default;
+
+.hero {}
+
+    .hero__content {
+        margin-bottom: $spacing-unit * 8;
+        padding-right: $hero-gap-content-and-cover;
+    }
+
+        .hero__about {}
+
+    .hero__cover {
+        padding-left: $hero-gap-content-and-cover;
+        transform: rotate(1deg);
+    }
+
+        .hero__cover-image {
+            border-radius: 6px;
+            box-shadow: $box-shadow--thumbnail;
+        }

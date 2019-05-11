@@ -1,0 +1,24 @@
+$section-title-bg-color: rgba($blue, 0.25);
+
+.section {
+    margin-top: triple($spacing-unit);
+    margin-bottom: ($spacing-unit * 7);
+    text-align: center;
+}
+
+.section--stack {}
+.section--brands {}
+.section--experience {}
+
+    .section__title {
+        display: inline-block;
+        padding: $spacing-unit triple($spacing-unit);
+        color: $blue;
+        background-color: $section-title-bg-color;
+        border-radius: $border-radius;
+        font-size: 40px;
+
+        .section--experience & {
+            margin-bottom: $spacing-unit * 8;
+        }
+    }

@@ -1,0 +1,4754 @@
+[
+    {
+      "brandSlug": "queal",
+      "slug": "queal-standard",
+      "name": "Queal Standard",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 700,
+        "fat": 18.4,
+        "carbs": 78.7,
+        "protein": 49.2
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.33,
+          "maximumOrderPerMeal": 2.10
+        }
+      }
+    },
+
+    {
+      "brandSlug": "queal",
+      "slug": "queal-agile",
+      "name": "Queal Agile",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 600,
+        "fat": 15.2,
+        "carbs": 69.6,
+        "protein": 41.3
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.67,
+          "maximumOrderPerMeal": 2.40
+        }
+      }
+    },
+
+    {
+      "brandSlug": "queal",
+      "slug": "queal-athletic",
+      "name": "Queal Athletic",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 766,
+        "fat": 20.9,
+        "carbs": 78.67,
+        "protein": 60.2
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.83,
+          "maximumOrderPerMeal": 2.55
+        }
+      }
+    },
+
+    {
+      "brandSlug": "queal",
+      "slug": "queal-vegan",
+      "name": "Queal Vegan",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 700,
+        "fat": 25.6,
+        "carbs": 81.2,
+        "protein": 30.9
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.50,
+          "maximumOrderPerMeal": 2.25
+        }
+      }
+    },
+
+    {
+      "brandSlug": "bertrand",
+      "slug": "bertrand-classic",
+      "name": "Bertrand Classic",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 740,
+        "fat": 36,
+        "carbs": 84,
+        "protein": 20
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 4.89,
+          "maximumOrderPerMeal": 2.99
+        }
+      }
+    },
+
+    {
+      "brandSlug": "bertrand",
+      "slug": "bertrand-vegan",
+      "name": "Bertrand Vegan",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 706,
+        "fat": 34.7,
+        "carbs": 83,
+        "protein": 20.7
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 4.89,
+          "maximumOrderPerMeal": 2.99
+        }
+      }
+    },
+
+    {
+      "brandSlug": "bertrand",
+      "slug": "bertrand-active",
+      "name": "Bertrand Active",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 833,
+        "fat": 34.7,
+        "carbs": 88.3,
+        "protein": 41.7
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 5.39,
+          "maximumOrderPerMeal": 3.22
+        }
+      }
+    },
+
+    {
+      "brandSlug": "ample",
+      "slug": "ample-standard-400kcal",
+      "name": "Ample Standard 400kcal",
+      "filters": {
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 400,
+        "fat": 21,
+        "carbs": 26,
+        "protein": 27
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 7,
+          "maximumOrderPerMeal": 5.95
+        }
+      },
+      "notes": "Shaker free first order is checked since the powder is packaged in bottles (one bottle = one meal)."
+    },
+
+    {
+      "brandSlug": "ample",
+      "slug": "ample-standard-600kcal",
+      "name": "Ample Standard 600kcal",
+      "filters": {
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 600,
+        "fat": 31.5,
+        "carbs": 39,
+        "protein": 40.5
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 8.50,
+          "maximumOrderPerMeal": 7.22
+        }
+      },
+      "notes": "Shaker free first order is checked since the powder is packaged in bottles (one bottle = one meal)."
+    },
+
+    {
+      "brandSlug": "ample",
+      "slug": "ample-v-400kcal",
+      "name": "Ample V 400kcal",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 400,
+        "fat": 21,
+        "carbs": 28,
+        "protein": 25
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 7,
+          "maximumOrderPerMeal": 5.95
+        }
+      },
+      "notes": "Shaker free first order is checked since the powder is packaged in bottles (one bottle = one meal)."
+    },
+
+    {
+      "brandSlug": "ample",
+      "slug": "ample-v-600kcal",
+      "name": "Ample V 600kcal",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 600,
+        "fat": 31.5,
+        "carbs": 42,
+        "protein": 37.5
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 8.50,
+          "maximumOrderPerMeal": 7.22
+        }
+      },
+      "notes": "Shaker free first order is checked since the powder is packaged in bottles (one bottle = one meal)."
+    },
+
+    {
+      "brandSlug": "jimmyjoy",
+      "slug": "plenny-shake",
+      "name": "Plenny Shake",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 704,
+        "fat": 17,
+        "carbs": 88,
+        "protein": 45
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2,
+          "maximumOrderPerMeal": 1.67
+        }
+      }
+    },
+
+    {
+      "brandSlug": "jimmyjoy",
+      "slug": "plenny-shake-vegan",
+      "name": "Plenny Shake Vegan",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 700,
+        "fat": 15,
+        "carbs": 86,
+        "protein": 45
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2,
+          "maximumOrderPerMeal": 1.67
+        }
+      }
+    },
+
+    {
+      "brandSlug": "jimmyjoy",
+      "slug": "plenny-shake-wake-up",
+      "name": "Plenny Shake Wake Up",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 689,
+        "fat": 17.1,
+        "carbs": 83,
+        "protein": 44
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.5,
+          "maximumOrderPerMeal": 2.2
+        }
+      }
+    },
+
+    {
+      "brandSlug": "jimmyjoy",
+      "slug": "plenny-shake-sport",
+      "name": "Plenny Shake Sport",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 886,
+        "fat": 20.1,
+        "carbs": 106,
+        "protein": 58
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.5,
+          "maximumOrderPerMeal": 2.17
+        }
+      }
+    },
+
+    {
+      "brandSlug": "ketolent",
+      "slug": "ketolent-chocolate",
+      "name": "Ketolent Chocolate",
+      "filters": {
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 400,
+        "fat": 35,
+        "carbs": 8,
+        "protein": 18
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 3
+        }
+      }
+    },
+
+    {
+      "brandSlug": "ketolent",
+      "slug": "ketolent-vanilla",
+      "name": "Ketolent Vanilla",
+      "filters": {
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 390,
+        "fat": 35,
+        "carbs": 4,
+        "protein": 18
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 3
+        }
+      }
+    },
+
+    {
+      "brandSlug": "lembas",
+      "slug": "lembas",
+      "name": "Lembas",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 521,
+        "fat": 15.6,
+        "carbs": 80.3,
+        "protein": 19
+      },
+      "prices": {
+        "base": {
+          "currency": "SGD",
+          "minimumOrderPerMeal": 6,
+          "maximumOrderPerMeal": 6
+        }
+      }
+    },
+
+    {
+      "brandSlug": "huel",
+      "slug": "huel-original",
+      "name": "Huel Original",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 16.1,
+        "carbs": 46.65,
+        "protein": 36.9
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.61,
+          "maximumOrderPerMeal": 1.47
+        }
+      }
+    },
+
+    {
+      "brandSlug": "huel",
+      "slug": "huel-gluten-free",
+      "name": "Huel Gluten Free",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 16,
+        "carbs": 46.65,
+        "protein": 36.9
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.79,
+          "maximumOrderPerMeal": 1.64
+        }
+      }
+    },
+
+    {
+      "brandSlug": "biolent",
+      "slug": "biolent-original",
+      "name": "Biolent Original",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 18.8,
+        "carbs": 70,
+        "protein": 20
+      },
+      "prices": {
+        "base": {
+          "currency": "CAD",
+          "minimumOrderPerMeal": 3.57,
+          "maximumOrderPerMeal": 2.95
+        }
+      }
+    },
+
+    {
+      "brandSlug": "biolent",
+      "slug": "biolent-flex",
+      "name": "Biolent Flex",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 18.8,
+        "carbs": 46,
+        "protein": 40
+      },
+      "prices": {
+        "base": {
+          "currency": "CAD",
+          "minimumOrderPerMeal": 3.93,
+          "maximumOrderPerMeal": 3.30
+        }
+      }
+    },
+
+    {
+      "brandSlug": "biolent",
+      "slug": "biolent-keto",
+      "name": "Biolent Keto",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 35,
+        "carbs": 20,
+        "protein": 30
+      },
+      "prices": {
+        "base": {
+          "currency": "CAD",
+          "minimumOrderPerMeal": 3.75,
+          "maximumOrderPerMeal": 3.12
+        }
+      }
+    },
+
+    {
+      "brandSlug": "jake",
+      "slug": "jake-light",
+      "name": "Jake Light",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 22.1,
+        "carbs": 31.2,
+        "protein": 40
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.95,
+          "maximumOrderPerMeal": 2.49
+        }
+      }
+    },
+
+    {
+      "brandSlug": "jake",
+      "slug": "jake-original",
+      "name": "Jake Original",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 667,
+        "fat": 22.3,
+        "carbs": 70,
+        "protein": 40
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.20,
+          "maximumOrderPerMeal": 2.74
+        }
+      }
+    },
+
+    {
+      "brandSlug": "jake",
+      "slug": "jake-sports",
+      "name": "Jake Sports",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 750,
+        "fat": 27.7,
+        "carbs": 80.8,
+        "protein": 40.1
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.45,
+          "maximumOrderPerMeal": 2.99
+        }
+      }
+    },
+
+    {
+      "brandSlug": "vexx",
+      "slug": "natural-health-shake",
+      "name": "Natural Health Shake",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 670,
+        "fat": 20,
+        "carbs": 83,
+        "protein": 32
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 4.90,
+          "maximumOrderPerMeal": 3.99
+        }
+      },
+      "notes": "Shaker free first order is checked since you have a one for free when you order at least 24 smoothies."
+    },
+
+    {
+      "brandSlug": "purelent",
+      "slug": "purelent",
+      "name": "Purelent",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 667,
+        "fat": 23.3,
+        "carbs": 87.1,
+        "protein": 25
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.6,
+          "maximumOrderPerMeal": 2.2
+        }
+      }
+    },
+
+    {
+      "brandSlug": "myprotein",
+      "slug": "whole-fuel",
+      "name": "Whole Fuel",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 423,
+        "fat": 15,
+        "carbs": 40,
+        "protein": 30
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.60,
+          "maximumOrderPerMeal": 0.96
+        }
+      },
+      "notes": "MyProtein is known to have huge discounts (minimum 20%) every day."
+    },
+
+    {
+      "brandSlug": "nutberg",
+      "slug": "drinkable-meal-classic",
+      "name": "Drinkable Meal Classic",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 501,
+        "fat": 26,
+        "carbs": 40.5,
+        "protein": 27.6
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 4.57,
+          "maximumOrderPerMeal": 2.55
+        }
+      }
+    },
+
+    {
+      "brandSlug": "nutberg",
+      "slug": "drinkable-meal-banana",
+      "name": "Drinkable Meal Banana",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 501,
+        "fat": 26,
+        "carbs": 40.5,
+        "protein": 27.6
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 4.57,
+          "maximumOrderPerMeal": 2.55
+        }
+      }
+    },
+
+    {
+      "brandSlug": "nutberg",
+      "slug": "drinkable-meal-cocoa",
+      "name": "Drinkable Meal Cocoa",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 501,
+        "fat": 25.6,
+        "carbs": 40.5,
+        "protein": 27.6
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 4.57,
+          "maximumOrderPerMeal": 2.55
+        }
+      }
+    },
+
+    {
+      "brandSlug": "aussielent",
+      "slug": "aussielent-powder-chocolate",
+      "name": "Powder: Chocolate",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 515,
+        "fat": 12.1,
+        "carbs": 67.7,
+        "protein": 30
+      },
+      "prices": {
+        "base": {
+          "currency": "AUD",
+          "minimumOrderPerMeal": 2.93,
+          "maximumOrderPerMeal": 2.93
+        }
+      }
+    },
+
+    {
+      "brandSlug": "aussielent",
+      "slug": "aussielent-powder-vanilla",
+      "name": "Powder: Vanilla",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 515,
+        "fat": 11.9,
+        "carbs": 68.6,
+        "protein": 30.1
+      },
+      "prices": {
+        "base": {
+          "currency": "AUD",
+          "minimumOrderPerMeal": 2.93,
+          "maximumOrderPerMeal": 2.93
+        }
+      }
+    },
+
+    {
+      "brandSlug": "aussielent",
+      "slug": "aussielent-powder-vegan",
+      "name": "Powder: Vegan",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 497,
+        "fat": 11.3,
+        "carbs": 65.4,
+        "protein": 30.1
+      },
+      "prices": {
+        "base": {
+          "currency": "AUD",
+          "minimumOrderPerMeal": 2.93,
+          "maximumOrderPerMeal": 2.93
+        }
+      }
+    },
+
+    {
+      "brandSlug": "bivo",
+      "slug": "bivo-natural",
+      "name": "Bivo Natural",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 440,
+        "fat": 10.9,
+        "carbs": 57.5,
+        "protein": 18.4
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.99,
+          "maximumOrderPerMeal": 3.99
+        }
+      }
+    },
+
+    {
+      "brandSlug": "bivo",
+      "slug": "bivo-coconut",
+      "name": "Bivo Coconut",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 446,
+        "fat": 10.9,
+        "carbs": 59.4,
+        "protein": 18.4
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.99,
+          "maximumOrderPerMeal": 3.99
+        }
+      }
+    },
+
+    {
+      "brandSlug": "bivo",
+      "slug": "bivo-mango",
+      "name": "Bivo Mango",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 449,
+        "fat": 10.9,
+        "carbs": 60.4,
+        "protein": 18.5
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.99,
+          "maximumOrderPerMeal": 3.99
+        }
+      }
+    },
+
+    {
+      "brandSlug": "bloom",
+      "slug": "bloom",
+      "name": "Bloom",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 412,
+        "fat": 14.7,
+        "carbs": 47.1,
+        "protein": 24
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 1.40,
+          "maximumOrderPerMeal": 1.14
+        }
+      }
+    },
+
+    {
+      "brandSlug": "holfood",
+      "slug": "original-chocolate",
+      "name": "Original Chocolate",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 12,
+        "carbs": 68,
+        "protein": 30
+      },
+      "prices": {
+        "base": {
+          "currency": "CAD",
+          "minimumOrderPerMeal": 3.17,
+          "maximumOrderPerMeal": 3.17
+        }
+      }
+    },
+
+    {
+      "brandSlug": "lently",
+      "slug": "lently-banana-smile",
+      "name": "Lently Banana Smile",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 495,
+        "fat": 14.7,
+        "carbs": 61.3,
+        "protein": 35.1
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.75,
+          "maximumOrderPerMeal": 1.75
+        }
+      }
+    },
+
+    {
+      "brandSlug": "lently",
+      "slug": "lently-strawberry-dreams",
+      "name": "Lently Strawberry Dreams",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 493,
+        "fat": 14.7,
+        "carbs": 61.4,
+        "protein": 35.2
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.75,
+          "maximumOrderPerMeal": 1.75
+        }
+      }
+    },
+
+    {
+      "brandSlug": "lently",
+      "slug": "lently-choco-choco",
+      "name": "Lently Choco Choco",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 494,
+        "fat": 14.7,
+        "carbs": 61.3,
+        "protein": 35.8
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.75,
+          "maximumOrderPerMeal": 1.75
+        }
+      }
+    },
+
+    {
+      "brandSlug": "lently",
+      "slug": "lently-cappucino",
+      "name": "Lently Cappucino",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 439,
+        "fat": 14.5,
+        "carbs": 62.3,
+        "protein": 35.1
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.75,
+          "maximumOrderPerMeal": 1.75
+        }
+      }
+    },
+
+    {
+      "brandSlug": "tsogo",
+      "slug": "classic-chocolate-shake",
+      "name": "Classic Chocolate Shake",
+      "filters": {
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 430,
+        "fat": 19,
+        "carbs": 46,
+        "protein": 19
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 2.69,
+          "maximumOrderPerMeal": 1.93
+        }
+      }
+    },
+
+    {
+      "brandSlug": "tsogo",
+      "slug": "classic-vanilla-shake",
+      "name": "Classic Vanilla Shake",
+      "filters": {
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 410,
+        "fat": 19,
+        "carbs": 42,
+        "protein": 17
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 2.99,
+          "maximumOrderPerMeal": 1.93
+        }
+      }
+    },
+
+    {
+      "brandSlug": "functional-formularies",
+      "slug": "liquid-hope",
+      "name": "Liquid Hope",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 450,
+        "fat": 20,
+        "carbs": 49,
+        "protein": 23
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 12.50,
+          "maximumOrderPerMeal": 7.99
+        }
+      }
+    },
+
+    {
+      "brandSlug": "functional-formularies",
+      "slug": "nourish",
+      "name": "Nourish",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 400,
+        "fat": 17,
+        "carbs": 50,
+        "protein": 14
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 12.50,
+          "maximumOrderPerMeal": 7.99
+        }
+      }
+    },
+
+    {
+      "brandSlug": "feed",
+      "slug": "feed-powder-provencal-tomatoes",
+      "name": "Feed Powder Provençal tomatoes",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 650,
+        "fat": 27.8,
+        "carbs": 77.1,
+        "protein": 17.8
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.60
+        }
+      }
+    },
+
+    {
+      "brandSlug": "feed",
+      "slug": "feed-powder-mushrooms",
+      "name": "Feed Powder Mushrooms",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 649,
+        "fat": 26.8,
+        "carbs": 78.2,
+        "protein": 18.8
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.4,
+          "maximumOrderPerMeal": 3
+        }
+      }
+    },
+
+    {
+      "brandSlug": "feed",
+      "slug": "feed-powder-garden-vegetables",
+      "name": "Feed Powder Garden Vegetables",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 652,
+        "fat": 27.1,
+        "carbs": 78.4,
+        "protein": 18.6
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.6
+        }
+      }
+    },
+
+    {
+      "brandSlug": "feed",
+      "slug": "feed-powder-red-fruits",
+      "name": "Feed Powder Red Fruits",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 649,
+        "fat": 25.1,
+        "carbs": 82.6,
+        "protein": 18
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.6
+        }
+      }
+    },
+
+    {
+      "brandSlug": "feed",
+      "slug": "feed-powder-chocolate",
+      "name": "Feed Powder Chocolate",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 657,
+        "fat": 26.4,
+        "carbs": 81.5,
+        "protein": 18.3
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.6
+        }
+      }
+    },
+
+    {
+      "brandSlug": "feed",
+      "slug": "feed-powder-carrots-and-pumpkin",
+      "name": "Feed Powder Carrots and Pumpkin",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 650,
+        "fat": 27.7,
+        "carbs": 77.5,
+        "protein": 17.7
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.6
+        }
+      }
+    },
+
+    {
+      "brandSlug": "feed",
+      "slug": "feed-powder-coffee",
+      "name": "Feed Powder Coffee",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 651,
+        "fat": 25.3,
+        "carbs": 82.8,
+        "protein": 18
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.6
+        }
+      }
+    },
+
+    {
+      "brandSlug": "feed",
+      "slug": "feed-powder-nature",
+      "name": "Feed Powder Nature",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 649,
+        "fat": 25.2,
+        "carbs": 82.2,
+        "protein": 18.2
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.6
+        }
+      }
+    },
+
+    {
+      "brandSlug": "saturo",
+      "slug": "saturo-original",
+      "name": "Saturo Original",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat":  24,
+        "carbs": 44,
+        "protein": 25
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.99,
+          "maximumOrderPerMeal": 2.99
+        }
+      },
+      "notes": "Shaker free first order is checked since the powder is packaged in bottles (one bottle = one meal)."
+    },
+
+    {
+      "brandSlug": "saturo",
+      "slug": "saturo-chocolate",
+      "name": "Saturo Chocolate",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat":  25,
+        "carbs": 42,
+        "protein": 25
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.29,
+          "maximumOrderPerMeal": 3.29
+        }
+      },
+      "notes": "Shaker free first order is checked since the powder is packaged in bottles (one bottle = one meal)."
+    },
+
+    {
+      "brandSlug": "saturo",
+      "slug": "saturo-coffee",
+      "name": "Saturo Coffee",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat":  25,
+        "carbs": 42,
+        "protein": 25
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.29,
+          "maximumOrderPerMeal": 3.29
+        }
+      },
+      "notes": "Shaker free first order is checked since the powder is packaged in bottles (one bottle = one meal)."
+    },
+
+    {
+      "brandSlug": "pulve",
+      "slug": "pulve",
+      "name": "Pulve",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat":  15.9,
+        "carbs": 54.7,
+        "protein": 27
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.27,
+          "maximumOrderPerMeal": 1.99
+        }
+      }
+    },
+
+    {
+      "brandSlug": "bentoblend",
+      "slug": "bentoblend",
+      "name": "BentoBlend",
+      "filters": {
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat":  16.4,
+        "carbs": 57,
+        "protein": 31.3
+      },
+      "prices": {
+        "base": {
+          "currency": "SGD",
+          "minimumOrderPerMeal": 3.75,
+          "maximumOrderPerMeal": 3.5
+        }
+      }
+    },
+
+    {
+      "brandSlug": "soylent",
+      "slug": "soylent-powder-pouch",
+      "name": "Soylent Powder Pouch",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 400,
+        "fat":  20,
+        "carbs": 39,
+        "protein": 20
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 1.83,
+          "maximumOrderPerMeal": 1.83
+        }
+      }
+    },
+
+    {
+      "brandSlug": "futricio",
+      "slug": "futricio-one",
+      "name": "Futricio One",
+      "filters": {
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 700,
+        "fat":  26.35,
+        "carbs": 84,
+        "protein": 46
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.14,
+          "maximumOrderPerMeal": 1.79
+        }
+      }
+    },
+
+    {
+      "brandSlug": "nano",
+      "slug": "nano-original",
+      "name": "Nano Original",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 666,
+        "fat":  23.3,
+        "carbs": 88.7,
+        "protein": 27
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 1.33
+        }
+      }
+    },
+
+    {
+      "brandSlug": "tudo",
+      "slug": "tudo-raspberry",
+      "name": "Tudo Raspberry",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat":  20,
+        "carbs": 48,
+        "protein": 29
+      },
+      "prices": {
+        "base": {
+          "currency": "CAD",
+          "minimumOrderPerMeal": 3.99,
+          "maximumOrderPerMeal": 3.99
+        }
+      }
+    },
+
+    {
+      "brandSlug": "tudo",
+      "slug": "tudo-vanilla",
+      "name": "Tudo Vanilla",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat":  20,
+        "carbs": 49,
+        "protein": 29
+      },
+      "prices": {
+        "base": {
+          "currency": "CAD",
+          "minimumOrderPerMeal": 3.99,
+          "maximumOrderPerMeal": 3.99
+        }
+      }
+    },
+
+    {
+      "brandSlug": "yfood",
+      "slug": "yfood-original",
+      "name": "YFood Original",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 22,
+        "carbs": 39,
+        "protein": 33.5
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.99,
+          "maximumOrderPerMeal": 2.99
+        }
+      },
+      "notes": "Shaker free first order is checked since it\"s a bottle (a bottle = a meal)"
+    },
+
+    {
+      "brandSlug": "anapur",
+      "slug": "anapur",
+      "name": "Anapur",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 440,
+        "fat": 18,
+        "carbs": 42,
+        "protein": 27.5
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.20,
+          "maximumOrderPerMeal": 1.81
+        }
+      }
+    },
+
+    {
+      "brandSlug": "shake2Day",
+      "slug": "shake2day-light-vanilla",
+      "name": "Shake2day Light Vanilla",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 294,
+        "fat": 6.3,
+        "carbs": 40,
+        "protein": 15.1
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2,
+          "maximumOrderPerMeal": 1.60
+        }
+      }
+    },
+
+    {
+      "brandSlug": "shake2Day",
+      "slug": "shake2day-light-chocolate",
+      "name": "Shake2day Light Chocolate",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 292,
+        "fat": 6.6,
+        "carbs": 39.2,
+        "protein": 15
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2,
+          "maximumOrderPerMeal": 1.60
+        }
+      }
+    },
+
+    {
+      "brandSlug": "shake2Day",
+      "slug": "shake2day-light-cappucino",
+      "name": "Shake2day Light Cappucino",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 290,
+        "fat": 6.3,
+        "carbs": 39.2,
+        "protein": 15.1
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2,
+          "maximumOrderPerMeal": 1.60
+        }
+      }
+    },
+
+    {
+      "brandSlug": "shake2Day",
+      "slug": "shake2day-regular-chocolate",
+      "name": "Shake2day Regular Chocolate",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 430,
+        "fat": 9.4,
+        "carbs": 57.4,
+        "protein": 22.9
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.4,
+          "maximumOrderPerMeal": 1.92
+        }
+      }
+    },
+
+    {
+      "brandSlug": "shake2Day",
+      "slug": "shake2day-regular-vanilla",
+      "name": "Shake2day Regular Vanilla",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 432,
+        "fat": 9.1,
+        "carbs": 59.7,
+        "protein": 22.2
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.4,
+          "maximumOrderPerMeal": 1.92
+        }
+      }
+    },
+
+    {
+      "brandSlug": "shake2Day",
+      "slug": "shake2day-regular-cappucino",
+      "name": "Shake2day Regular Cappucino",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 427,
+        "fat": 9.1,
+        "carbs": 58.4,
+        "protein": 22.2
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.4,
+          "maximumOrderPerMeal": 1.92
+        }
+      }
+    },
+
+    {
+      "brandSlug": "shake2Day",
+      "slug": "shake2day-sport-chocolate",
+      "name": "Shake2day Sport Chocolate",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 662,
+        "fat": 17.5,
+        "carbs": 86,
+        "protein": 34.2
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.15,
+          "maximumOrderPerMeal": 2.52
+        }
+      }
+    },
+
+    {
+      "brandSlug": "shake2Day",
+      "slug": "shake2day-sport-vanilla",
+      "name": "Shake2day Sport Vanilla",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 667,
+        "fat": 17,
+        "carbs": 90.3,
+        "protein": 30.2
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.15,
+          "maximumOrderPerMeal": 2.52
+        }
+      }
+    },
+
+    {
+      "brandSlug": "shake2Day",
+      "slug": "shake2day-sport-cappucino",
+      "name": "Shake2day Sport Cappucino",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 659,
+        "fat": 16.8,
+        "carbs": 89.3,
+        "protein": 32.6
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.15,
+          "maximumOrderPerMeal": 2.52
+        }
+      }
+    },
+
+    {
+      "brandSlug": "ambronite",
+      "slug": "drinkable-supermeal",
+      "name": "Drinkable Supermeal",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 160,
+        "fat": 6,
+        "carbs": 17,
+        "protein": 10
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 2.34,
+          "maximumOrderPerMeal": 2.34
+        }
+      }
+    },
+
+    {
+      "brandSlug": "mana",
+      "slug": "mana-powder",
+      "name": "Mana Powder",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 400,
+        "fat": 20,
+        "carbs": 35.5,
+        "protein": 20.8
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 1.74,
+          "maximumOrderPerMeal": 1.42
+        }
+      }
+    },
+
+    {
+      "brandSlug": "super-body-fuel",
+      "slug": "schmilk",
+      "name": "Schmilk",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 19,
+        "carbs": 58,
+        "protein": 24
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 2,
+          "maximumOrderPerMeal": 2
+        }
+      },
+      "notes": "You need to add 480ml of milk per serving. Without milk this product has 200kcal / serving, we roughly added $0.50 USD to the price per serving."
+    },
+
+    {
+      "brandSlug": "super-body-fuel",
+      "slug": "super-fuel",
+      "name": "Super Fuel",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 31,
+        "carbs": 31,
+        "protein": 25
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 2.70,
+          "maximumOrderPerMeal": 2.70
+        }
+      },
+      "notes": "You have to add 2 tablespoons of oil per serving. Without oil this product has 260kcal / serving, we roughly added $0.20 USD to the price per serving."
+    },
+
+    {
+      "brandSlug": "super-body-fuel",
+      "slug": "keto-fuel",
+      "name": "Keto Fuel",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 450,
+        "fat": 37,
+        "carbs": 9,
+        "protein": 26
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 2.70,
+          "maximumOrderPerMeal": 2.70
+        }
+      },
+      "notes": "You have to add 2 tablespoons of oil per serving. Without oil this product has 210kcal / serving, we roughly added $0.20 USD to the price per serving."
+    },
+
+    {
+      "brandSlug": "super-body-fuel",
+      "slug": "athlete-fuel",
+      "name": "Athlete Fuel",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 630,
+        "fat": 21,
+        "carbs": 62,
+        "protein": 47
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 3
+        }
+      },
+      "notes": "You need to add 480ml of milk per serving. Without milk this product has 330kcal / serving, we roughly added $0.50 USD to the price per serving."
+    },
+
+    {
+      "brandSlug": "your-popup-meal",
+      "slug": "your-popup-meal",
+      "name": "Your Popup Meal",
+      "filters": {
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 480,
+        "fat": 21,
+        "carbs": 46.4,
+        "protein": 20.4
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.50,
+          "maximumOrderPerMeal": 2.87
+        }
+      },
+      "notes": "Shaker free first order is checked since the product is in a bottle (one bottle = one meal)."
+    },
+
+    {
+      "brandSlug": "ketoone",
+      "slug": "ketoone",
+      "name": "KetoOne",
+      "filters": {
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 400,
+        "fat": 34,
+        "carbs": 12,
+        "protein": 18
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 3.28,
+          "maximumOrderPerMeal": 2.76
+        }
+      },
+      "notes": "The sample pack costs 5$"
+    },
+
+    {
+      "brandSlug": "smeal",
+      "slug": "cereales-vanille",
+      "name": "Céréales Vanille",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 16.2,
+        "carbs": 59.2,
+        "protein": 26.6
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.40
+        }
+      },
+      "notes": "The website is in French and they ship only to France."
+    },
+
+    {
+      "brandSlug": "smeal",
+      "slug": "fruit-des-bois",
+      "name": "Fruit des Bois",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 15.5,
+        "carbs": 61.2,
+        "protein": 25.8
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.40
+        }
+      },
+      "notes": "The website is in French and they ship only to France."
+    },
+
+    {
+      "brandSlug": "smeal",
+      "slug": "legumes-du-potager",
+      "name": "Légumes du potager",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 486,
+        "fat": 16.1,
+        "carbs": 56.7,
+        "protein": 25.9
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.40
+        }
+      },
+      "notes": "The website is in French and they ship only to France."
+    },
+
+    {
+      "brandSlug": "smeal",
+      "slug": "choc-avoine",
+      "name": "Choc\"avoine",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 16.2,
+        "carbs": 59.5,
+        "protein": 26.4
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.40
+        }
+      },
+      "notes": "The website is in French and they ship only to France."
+    },
+
+    {
+      "brandSlug": "smeal",
+      "slug": "speculoos",
+      "name": "Speculoos",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 15.5,
+        "carbs": 61,
+        "protein": 25.9
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.40
+        }
+      },
+      "notes": "The website is in French and they ship only to France."
+    },
+
+    {
+      "brandSlug": "smeal",
+      "slug": "veloute-champignon",
+      "name": "Velouté Champignon",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 15.9,
+        "carbs": 59.7,
+        "protein": 26.7
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.40
+        }
+      },
+      "notes": "The website is in French and they ship only to France."
+    },
+
+    {
+      "brandSlug": "vitaline",
+      "slug": "pouch-6-meals-almond",
+      "name": "Pouch 6 meals Almond",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 668,
+        "fat": 28,
+        "carbs": 72.9,
+        "protein": 30.4
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 4.80,
+          "maximumOrderPerMeal": 4.30
+        }
+      }
+    },
+
+    {
+      "brandSlug": "vitaline",
+      "slug": "pouch-6-meals-cacao",
+      "name": "Pouch 6 meals Cacao",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 661,
+        "fat": 27.8,
+        "carbs": 71.2,
+        "protein": 29.8
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 4.80,
+          "maximumOrderPerMeal": 4.30
+        }
+      }
+    },
+
+    {
+      "brandSlug": "vitaline",
+      "slug": "pouch-6-meals-berries",
+      "name": "Pouch 6 meals Berries",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 664,
+        "fat": 28.2,
+        "carbs": 73.7,
+        "protein": 30.1
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 4.80,
+          "maximumOrderPerMeal": 4.30
+        }
+      }
+    },
+
+    {
+      "brandSlug": "vitaline",
+      "slug": "pouch-6-meals-carrot-turmeric",
+      "name": "Pouch 6 meals Carrot Turmeric",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 662,
+        "fat": 25.6,
+        "carbs": 77.8,
+        "protein": 30
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 4.80,
+          "maximumOrderPerMeal": 4.30
+        }
+      }
+    },
+
+    {
+      "brandSlug": "vitaline",
+      "slug": "bottle-500ml-almond",
+      "name": "Bottle 500ml Almond",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 400,
+        "fat": 16.8,
+        "carbs": 43.7,
+        "protein": 18.2
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.99,
+          "maximumOrderPerMeal": 3.59
+        }
+      },
+      "notes": "Shaker free first order is checked since the powder is packaged in bottles (one bottle = one meal)."
+    },
+
+    {
+      "brandSlug": "vitaline",
+      "slug": "bottle-500ml-cacao",
+      "name": "Bottle 500ml Cacao",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 400,
+        "fat": 16.8,
+        "carbs": 43,
+        "protein": 18
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.99,
+          "maximumOrderPerMeal": 3.59
+        }
+      },
+      "notes": "Shaker free first order is checked since the powder is packaged in bottles (one bottle = one meal)."
+    },
+
+    {
+      "brandSlug": "vitaline",
+      "slug": "bottle-500ml-berries",
+      "name": "Bottle 500ml Berries",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 400,
+        "fat": 17,
+        "carbs": 44.4,
+        "protein": 18.1
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.99,
+          "maximumOrderPerMeal": 3.59
+        }
+      },
+      "notes": "Shaker free first order is checked since the powder is packaged in bottles (one bottle = one meal)."
+    },
+
+    {
+      "brandSlug": "vitaline",
+      "slug": "bottle-500ml-carrot-turmeric",
+      "name": "Bottle 500ml Carott Turmeric",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 397,
+        "fat": 15.4,
+        "carbs": 46.7,
+        "protein": 18
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.99,
+          "maximumOrderPerMeal": 3.59
+        }
+      },
+      "notes": "Shaker free first order is checked since the powder is packaged in bottles (one bottle = one meal)."
+    },
+
+    {
+      "brandSlug": "kachava",
+      "slug": "kachava-chocolate",
+      "name": "Ka\"Chava Chocolate",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 250,
+        "fat": 7,
+        "carbs": 27,
+        "protein": 24
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 4.66,
+          "maximumOrderPerMeal": 4.66
+        }
+      }
+    },
+
+    {
+      "brandSlug": "kachava",
+      "slug": "kachava-vanilla",
+      "name": "Ka\"Chava Vanilla",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 250,
+        "fat": 7,
+        "carbs": 26,
+        "protein": 24
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 4.66,
+          "maximumOrderPerMeal": 4.66
+        }
+      }
+    },
+
+    {
+      "brandSlug": "ultim",
+      "slug": "ultim",
+      "name": "Ultim",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 127,
+        "fat": 0.2,
+        "carbs": 2.4,
+        "protein": 26
+      },
+      "prices": {
+        "base": {
+          "currency": "AUD",
+          "minimumOrderPerMeal": 4.21,
+          "maximumOrderPerMeal": 4.21
+        }
+      }
+    },
+
+    {
+      "brandSlug": "grubsub",
+      "slug": "grubsub-meal",
+      "name": "GrubSub Meal",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 16.9,
+        "carbs": 61,
+        "protein": 26
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.14
+        }
+      },
+      "notes": "The filter 'sample pack' is checked for this product since you can order only 3 meals"
+    },
+
+    {
+      "brandSlug": "purition",
+      "slug": "purition",
+      "name": "500g Original Pecan & Cinnamon",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 193,
+        "fat": 13,
+        "carbs": 3.1,
+        "protein": 15.7
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.91,
+          "maximumOrderPerMeal": 1.39
+        }
+      }
+    },
+
+    {
+      "brandSlug": "purition",
+      "slug": "purition",
+      "name": "500g Original Strawberry",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 186,
+        "fat": 12,
+        "carbs": 4.7,
+        "protein": 15.8
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.91,
+          "maximumOrderPerMeal": 1.39
+        }
+      }
+    },
+
+    {
+      "brandSlug": "purition",
+      "slug": "purition",
+      "name": "500g Original Pistachio",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 192,
+        "fat": 13,
+        "carbs": 4,
+        "protein": 16.2
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.91,
+          "maximumOrderPerMeal": 1.39
+        }
+      }
+    },
+
+    {
+      "brandSlug": "purition",
+      "slug": "purition",
+      "name": "500g Original Macadamia & Vanilla",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 198,
+        "fat": 14,
+        "carbs": 3.4,
+        "protein": 15.6
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.91,
+          "maximumOrderPerMeal": 1.39
+        }
+      }
+    },
+
+    {
+      "brandSlug": "purition",
+      "slug": "purition",
+      "name": "500g Original Chocolate",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 184,
+        "fat": 12,
+        "carbs": 3.4,
+        "protein": 16.3
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.91,
+          "maximumOrderPerMeal": 1.39
+        }
+      }
+    },
+
+    {
+      "brandSlug": "purition",
+      "slug": "purition",
+      "name": "500g Original Coconut",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 192,
+        "fat": 13,
+        "carbs": 3.1,
+        "protein": 16.4
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.91,
+          "maximumOrderPerMeal": 1.39
+        }
+      }
+    },
+
+    {
+      "brandSlug": "purition",
+      "slug": "purition",
+      "name": "500g Original Almond",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 192,
+        "fat": 13,
+        "carbs": 3.1,
+        "protein": 16.6
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.91,
+          "maximumOrderPerMeal": 1.39
+        }
+      }
+    },
+
+    {
+      "brandSlug": "purition",
+      "slug": "purition",
+      "name": "500g Dairy Free New Blackcurrant",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 154,
+        "fat": 11,
+        "carbs": 5,
+        "protein": 14.6
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.91,
+          "maximumOrderPerMeal": 1.39
+        }
+      }
+    },
+
+    {
+      "brandSlug": "purition",
+      "slug": "purition",
+      "name": "500g Dairy Free New Vanilla",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 163,
+        "fat": 12,
+        "carbs": 4.3,
+        "protein": 14.9
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.91,
+          "maximumOrderPerMeal": 1.39
+        }
+      }
+    },
+
+    {
+      "brandSlug": "purition",
+      "slug": "purition",
+      "name": "500g Dairy Free New Strawberry",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 156,
+        "fat": 11,
+        "carbs": 6.4,
+        "protein": 14.6
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.91,
+          "maximumOrderPerMeal": 1.39
+        }
+      }
+    },
+
+    {
+      "brandSlug": "purition",
+      "slug": "purition",
+      "name": "500g Dairy Free Hemp Original",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 200,
+        "fat": 13,
+        "carbs": 4.3,
+        "protein": 14.7
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.91,
+          "maximumOrderPerMeal": 1.39
+        }
+      }
+    },
+
+    {
+      "brandSlug": "purition",
+      "slug": "purition",
+      "name": "500g Dairy Free Hemp Chocolate",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 194,
+        "fat": 12,
+        "carbs": 4.5,
+        "protein": 14.2
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.91,
+          "maximumOrderPerMeal": 1.39
+        }
+      }
+    },
+
+    {
+      "brandSlug": "purition",
+      "slug": "purition",
+      "name": "500g Dairy Free Hemp Vanilla",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 199,
+        "fat": 13,
+        "carbs": 4.4,
+        "protein": 14.5
+      },
+      "prices": {
+        "base": {
+          "currency": "GBP",
+          "minimumOrderPerMeal": 1.91,
+          "maximumOrderPerMeal": 1.39
+        }
+      }
+    },
+
+    {
+      "brandSlug": "runtime",
+      "slug": "next-level-meal-chocolate",
+      "name": "Next level Meal Chocolate",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 609,
+        "fat": 18.5,
+        "carbs": 75.6,
+        "protein": 34
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.50,
+          "maximumOrderPerMeal": 3.50
+        }
+      }
+    },
+
+    {
+      "brandSlug": "runtime",
+      "slug": "next-level-meal-coconut",
+      "name": "Next Level Meal Coconut",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 611,
+        "fat": 18.2,
+        "carbs": 77.7,
+        "protein": 33.2
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.50,
+          "maximumOrderPerMeal": 3.50
+        }
+      }
+    },
+
+    {
+      "brandSlug": "runtime",
+      "slug": "next-level-meal-original",
+      "name": "Next Level Meal Original",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 606,
+        "fat": 17.25,
+        "carbs": 79.35,
+        "protein": 32.85
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.50,
+          "maximumOrderPerMeal": 3.50
+        }
+      }
+    },
+
+    {
+      "brandSlug": "runtime",
+      "slug": "next-level-meal-strawberry",
+      "name": "Next Level Meal Strawberry",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 611,
+        "fat": 18.2,
+        "carbs": 77.7,
+        "protein": 33.2
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.50,
+          "maximumOrderPerMeal": 3.50
+        }
+      }
+    },
+
+    {
+      "brandSlug": "runtime",
+      "slug": "next-level-meal-gingerbread",
+      "name": "Next Level Meal Gingerbread",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 611,
+        "fat": 18.2,
+        "carbs": 77.7,
+        "protein": 33.3
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.50,
+          "maximumOrderPerMeal": 3.50
+        }
+      }
+    },
+
+    {
+      "brandSlug": "runtime",
+      "slug": "next-level-meal-marzipan",
+      "name": "Next Level Meal Marzipan",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 611,
+        "fat": 18.2,
+        "carbs": 78.9,
+        "protein": 33.3
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.50,
+          "maximumOrderPerMeal": 3.50
+        }
+      }
+    },
+
+    {
+      "brandSlug": "primalkind",
+      "slug": "primalkind-for-him-pack-cacao",
+      "name": "PrimalKind For Him Pack Cacao",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 44.6,
+        "carbs": 7.82,
+        "protein": 18.8
+      },
+      "prices": {
+        "base": {
+          "currency": "AUD",
+          "minimumOrderPerMeal": 6,
+          "maximumOrderPerMeal": 4.83
+        }
+      }
+    },
+
+    {
+      "brandSlug": "primalkind",
+      "slug": "primalkind-for-him-pack-natural",
+      "name": "PrimalKind For Him Pack Natural",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 45.5,
+        "carbs": 7.4,
+        "protein": 18.1
+      },
+      "prices": {
+        "base": {
+          "currency": "AUD",
+          "minimumOrderPerMeal": 6,
+          "maximumOrderPerMeal": 4.83
+        }
+      }
+    },
+
+    {
+      "brandSlug": "primalkind",
+      "slug": "primalkind-for-her-pack-cacao",
+      "name": "PrimalKind For Her Pack Cacao",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 300,
+        "fat": 26.1,
+        "carbs": 5.92,
+        "protein": 13.2
+      },
+      "prices": {
+        "base": {
+          "currency": "AUD",
+          "minimumOrderPerMeal": 5.90,
+          "maximumOrderPerMeal": 4.17
+        }
+      }
+    },
+
+    {
+      "brandSlug": "primalkind",
+      "slug": "primalkind-for-her-pack-natural",
+      "name": "PrimalKind For Her Pack Natural",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": true,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 300,
+        "fat": 26.4,
+        "carbs": 6.4,
+        "protein": 12.6
+      },
+      "prices": {
+        "base": {
+          "currency": "AUD",
+          "minimumOrderPerMeal": 5.90,
+          "maximumOrderPerMeal": 4.17
+        }
+      }
+    },
+
+    {
+      "brandSlug": "vitamin-food",
+      "slug": "vitamin-banana",
+      "name": "Vitamin Banana",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 673,
+        "fat": 23.3,
+        "carbs": 80.9,
+        "protein": 30.1
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.98,
+          "maximumOrderPerMeal": 2.85
+        }
+      },
+      "notes": "The filter 'sample pack' is checked since you can order only a bag."
+    },
+
+    {
+      "brandSlug": "vitamin-food",
+      "slug": "vitamin-strawberry",
+      "name": "Vitamin Strawberry",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 672,
+        "fat": 23.3,
+        "carbs": 80.6,
+        "protein": 30.1
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.98,
+          "maximumOrderPerMeal": 2.85
+        }
+      },
+      "notes": "The filter 'sample pack' is checked since you can order only a bag."
+    },
+
+    {
+      "brandSlug": "vitamin-food",
+      "slug": "vitamin-vanilla",
+      "name": "Vitamin Vanilla",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 675,
+        "fat": 23.3,
+        "carbs": 81.1,
+        "protein": 30.2
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.98,
+          "maximumOrderPerMeal": 2.85
+        }
+      },
+      "notes": "The filter 'sample pack' is checked since you can order only a bag."
+    },
+
+    {
+      "brandSlug": "vitamin-food",
+      "slug": "vitamin-chocolate",
+      "name": "Vitamin Chocolate",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 673,
+        "fat": 23.4,
+        "carbs": 80.4,
+        "protein": 30
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 2.98,
+          "maximumOrderPerMeal": 2.85
+        }
+      },
+      "notes": "The filter 'sample pack' is checked since you can order only a bag."
+    },
+
+    {
+      "brandSlug": "vitalhouse",
+      "slug": "athlete-shake-vanilla",
+      "name": "Athlete Shake Vanilla",
+      "filters": {
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 400,
+        "fat": 15,
+        "carbs": 36,
+        "protein": 32
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 5.25,
+          "maximumOrderPerMeal": 4.75
+        }
+      }
+    },
+
+    {
+      "brandSlug": "vitalhouse",
+      "slug": "athlete-shake-chocolate",
+      "name": "Athlete Shake Chocolate",
+      "filters": {
+        "isVegetarian": false,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": true,
+        "hasDiscountForSubscription": true,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 400,
+        "fat": 15,
+        "carbs": 43,
+        "protein": 32
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 5.25,
+          "maximumOrderPerMeal": 4.75
+        }
+      }
+    },
+
+    {
+      "brandSlug": "satislent",
+      "slug": "satislent-2-0",
+      "name": "Satislent 2.0",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 670,
+        "fat": 20,
+        "carbs": 92,
+        "protein": 25
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3.50,
+          "maximumOrderPerMeal": 2
+        }
+      }
+    },
+
+    {
+      "brandSlug": "satislent",
+      "slug": "satisup-caffeine",
+      "name": "SatisUP caffeine",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 670,
+        "fat": 20,
+        "carbs": 92,
+        "protein": 25
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2
+        }
+      }
+    },
+
+    {
+      "brandSlug": "paca",
+      "slug": "paca",
+      "name": "Paca Powder",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": true,
+        "isGlutenFree": false,
+        "isLactoseFree": true,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": true,
+        "canShipInternational": true,
+        "canShipUS": true,
+        "canShipCA": true,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 654,
+        "fat": 18.3,
+        "carbs": 82.3,
+        "protein": 33.9
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 3,
+          "maximumOrderPerMeal": 2.33
+        }
+      }
+    },
+
+    {
+      "brandSlug": "powder-matter",
+      "slug": "powder-matter-strawberry",
+      "name": "Powder Matter - Strawberry",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 673,
+        "fat": 14.5,
+        "carbs": 87.6,
+        "protein": 40.1
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 4,
+          "maximumOrderPerMeal": 1.65
+        }
+      },
+      "notes": "Shipment to Europe is free! - Get a 20% discount for your first order by using the following code during checkout: soylent-alternatives.com_OFF_20"
+    },
+
+    {
+      "brandSlug": "powder-matter",
+      "slug": "powder-matter-coconut",
+      "name": "Powder Matter - Coconut",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 674,
+        "fat": 14.5,
+        "carbs": 85.4,
+        "protein": 39.9
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 4,
+          "maximumOrderPerMeal": 1.65
+        }
+      },
+      "notes": "Shipment to Europe is free! - Get a 20% discount for your first order by using the following code during checkout: soylent-alternatives.com_OFF_20"
+    },
+
+    {
+      "brandSlug": "powder-matter",
+      "slug": "powder-matter-vanilla",
+      "name": "Powder Matter - Vanilla",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": true,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": true,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": false,
+        "canShipCA": false,
+        "canShipEU": true
+      },
+      "nutritionFacts": {
+        "kcal": 677,
+        "fat": 14.8,
+        "carbs": 87.2,
+        "protein": 41
+      },
+      "prices": {
+        "base": {
+          "currency": "EUR",
+          "minimumOrderPerMeal": 4,
+          "maximumOrderPerMeal": 1.65
+        }
+      },
+      "notes": "Shipment to Europe is free! - Get a 20% discount for your first order by using the following code during checkout: soylent-alternatives.com_OFF_20"
+    },
+
+    {
+      "brandSlug": "mi-mix",
+      "slug": "mi-mix-original-240",
+      "name": "Mī Mix Original 240",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 240,
+        "fat": 7,
+        "carbs": 30,
+        "protein": 18
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 4,
+          "maximumOrderPerMeal": 3.40
+        }
+      }
+    },
+
+    {
+      "brandSlug": "mi-mix",
+      "slug": "mi-mix-original-320",
+      "name": "Mī Mix Original 320",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 320,
+        "fat": 9,
+        "carbs": 40,
+        "protein": 24
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 4.40,
+          "maximumOrderPerMeal": 3.74
+        }
+      }
+    },
+
+    {
+      "brandSlug": "mi-mix",
+      "slug": "mi-mix-original-400",
+      "name": "Mī Mix Original 400",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 400,
+        "fat": 11,
+        "carbs": 50,
+        "protein": 30
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 4.80,
+          "maximumOrderPerMeal": 4.08
+        }
+      }
+    },
+
+    {
+      "brandSlug": "mi-mix",
+      "slug": "mi-mix-original-500",
+      "name": "Mī Mix Original 500",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 500,
+        "fat": 14,
+        "carbs": 62,
+        "protein": 37
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 5.20,
+          "maximumOrderPerMeal": 4.42
+        }
+      }
+    },
+
+    {
+      "brandSlug": "mi-mix",
+      "slug": "mi-mix-original-600",
+      "name": "Mī Mix Original 600",
+      "filters": {
+        "isVegetarian": true,
+        "isVegan": false,
+        "isGlutenFree": false,
+        "isLactoseFree": false,
+        "hasSubscription": false,
+        "hasDiscountForSubscription": false,
+        "hasSamplePack": false,
+        "hasFreeShakerFirstOrder": false,
+        "canShipInternational": false,
+        "canShipUS": true,
+        "canShipCA": false,
+        "canShipEU": false
+      },
+      "nutritionFacts": {
+        "kcal": 600,
+        "fat": 16,
+        "carbs": 75,
+        "protein": 45
+      },
+      "prices": {
+        "base": {
+          "currency": "USD",
+          "minimumOrderPerMeal": 5.60,
+          "maximumOrderPerMeal": 4.76
+        }
+      }
+    }
+  ]

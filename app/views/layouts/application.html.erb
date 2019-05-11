@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title><%= page_title %></title>
+
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <%= content_for?(:head) ? yield(:head) : render('layouts/head') %>
+  </head>
+
+  <body>
+    <div class="layout">
+      <%= yield %>
+    </div>
+  </body>
+
+  <%= javascript_include_tag 'application' %>
+</html>

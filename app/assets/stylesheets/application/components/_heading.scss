@@ -1,0 +1,81 @@
+/*------------------------------------*\
+    #HEADING
+\*------------------------------------*/
+
+$heading-1-font-size:  34px !default;
+$heading-2-font-size:  30px !default;
+$heading-3-font-size:  24px !default;
+$heading-4-font-size:  20px !default;
+$heading-5-font-size:  18px !default;
+$heading-6-font-size:  16px !default;
+
+%heading,
+.heading {
+    display: block;
+    margin-bottom: double($spacing-unit);
+    font-family: $font-secondary;
+
+    .hero__content & {
+        color: $black;
+        font-size: 60px;
+        line-height: 78px;
+    }
+}
+
+%heading--1,
+.heading--1 {
+    font-size: $heading-1-font-size;
+    font-weight: bold;
+    line-height: 1;
+}
+
+%heading--2,
+.heading--2 {
+    font-size: $heading-2-font-size;
+    font-weight: bold;
+    line-height: 1;
+
+    .brands & {
+        padding-top: double($spacing-unit);
+    }
+}
+
+%heading--3,
+.heading--3 {
+    font-size: $heading-3-font-size;
+    font-weight: bold;
+    line-height: 1;
+}
+
+%heading--4,
+.heading--4 {
+    font-size: $heading-4-font-size;
+    font-weight: bold;
+    line-height: 1;
+
+    .guru & {
+        line-height: 1.2;
+    }
+}
+
+%heading--5,
+.heading--5 {
+    font-size: $heading-5-font-size;
+    font-weight: bold;
+    line-height: 1;
+}
+
+%heading--6,
+.heading--6 {
+    font-size: $heading-6-font-size;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.heading--center {
+    text-align: center;
+}
+
+.heading--upcase {
+    text-transform: uppercase;
+}
