@@ -7,11 +7,14 @@
 }
 
     .stack__section {
-        margin: 0 auto;
         margin-bottom: double($spacing-unit);
-        width: 80%;
         border: 1px solid darken($gray--x-light, 5%);
         border-radius: 5px;
+
+        @include respond-to('wide') {
+            margin: 0 auto;
+            width: 80%;
+        }
     }
 
         .stack__section-title {

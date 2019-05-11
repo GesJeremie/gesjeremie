@@ -2,10 +2,9 @@
   <h4 class="stack__section-title"><%= title %></h4>
   <div class="stack__list">
 
-      <% stack.each_slice(6) do |group| %>
         <div class="grid grid--left">
-          <% group.each do |item| %>
-            <div class="grid__cell grid__cell--16">
+          <% stack.each do |item| %>
+            <div class="grid__cell grid__cell--25 grid__cell--16-at-wide">
               <div class="stack__item">
                 <div class="stack__item-image-container">
                   <%= inline_svg "stack/#{item}.svg", class: 'stack__item-image' %>
@@ -15,7 +14,6 @@
             </div>
           <% end %>
         </div>
-      <% end %>
 
   </div>
 </div>

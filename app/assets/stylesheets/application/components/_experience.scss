@@ -72,7 +72,13 @@ $experience-background-gap: 40px !default;
         }
 
             .experience__cover-image {
-                border-top-right-radius: $experience-border-radius;
                 border-bottom-right-radius: $experience-border-radius;
+                border-bottom-left-radius: $experience-border-radius;
                 object-fit: cover;
+
+                @include respond-to('wide') {
+                    border-radius: 0;
+                    border-top-right-radius: $experience-border-radius;
+                    border-bottom-right-radius: $experience-border-radius;
+                }
             }

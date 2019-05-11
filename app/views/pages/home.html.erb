@@ -1,7 +1,7 @@
 <div class="navbar">
   <div class="navbar__wrapper">
     <div class="grid grid--middle">
-      <div class="grid__cell grid__cell--50">
+      <div class="grid__cell grid__cell--70 grid__cell--50-at-wide">
         <div class="navbar__logo">
           <%= image_tag 'logo.png', class: 'navbar__logo-image' %>
         </div>
@@ -27,7 +27,7 @@
           <% end %>
         </div>
       </div>
-      <div class="grid__cell grid__cell--50">
+      <div class="grid__cell grid__cell--30 grid__cell--50-at-wide">
         <div class="navbar__actions">
           <%= link_to 'Contact Me', 'mailto:ges.jeremie@gmail.com', class: 'button' %>
         </div>
@@ -38,7 +38,7 @@
 
 <div class="hero">
   <div class="grid grid--center grid--middle">
-    <div class="grid__cell grid__cell--50">
+    <div class="grid__cell grid__cell--50-at-wide">
       <div class="hero__content">
         <h1 class="heading heading--1">Hey,<br/> Nice to meet you.</h1>
         <div class="hero__about">
@@ -59,7 +59,7 @@
         </div>
       </div>
     </div>
-    <div class="grid__cell grid__cell--50">
+    <div class="grid__cell grid__cell--50-at-wide">
       <div class="hero__cover">
         <%= image_tag 'me.png', class: 'hero__cover-image' %>
       </div>
@@ -101,7 +101,7 @@
       cover: 'experience/weblinc.jpg',
       flag: 'flags/canada.png'
     } do %>
-    <p>I'm part of the Front-End and Back-End development of +15 online stores on our proprietary platform <%= link_to 'Workarea', 'https://www.workarea.com/', class: 'link link--secondary' %>.</p>
+    <p>I'm part of the Front-End and Back-End development of +15 online stores running on our proprietary platform <%= link_to 'Workarea', 'https://www.workarea.com/', class: 'link link--secondary' %>.</p>
     <p>
       We create rich and meaningul shopping experiences for our multi-million turnover customers such as:
       <%= link_to 'Sanrio', 'https://www.sanrio.com/', class: 'link link--secondary' %>,

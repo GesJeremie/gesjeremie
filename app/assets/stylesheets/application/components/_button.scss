@@ -23,6 +23,10 @@ $button-fixed-width:                            150px !default;
     box-shadow: $box-shadow--button;
     cursor: pointer;
     vertical-align: middle;
+
+    .navbar__actions & {
+        margin-top: 0;
+    }
 }
 
 .button + .button {

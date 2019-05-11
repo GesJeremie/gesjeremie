@@ -8,6 +8,14 @@
     max-width: 1140px;
 
     @include respond-to('medium') {
+        width: 70%;
+    }
+
+    @include respond-to('wide') {
+        width: 90%;
+    }
+
+    @include respond-to('x-wide') {
         width: 100%;
     }
 }

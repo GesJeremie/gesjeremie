@@ -6,10 +6,14 @@
     text-align: left;
 }
 
-    .grid__cell--45 {
-        width: 45%;
+    .grid__cell--45-at-wide {
+        @include respond-to('wide') {
+            width: 45%;
+        }
     }
 
-    .grid__cell--55 {
-        width: 55%;
+    .grid__cell--55-at-wide {
+        @include respond-to('wide') {
+            width: 55%;
+        }
     }

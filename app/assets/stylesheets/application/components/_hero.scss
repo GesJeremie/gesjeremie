@@ -14,8 +14,10 @@ $hero-gap-content-and-cover: double($spacing-unit) !default;
         .hero__about {}
 
     .hero__cover {
-        padding-left: $hero-gap-content-and-cover;
-        transform: rotate(1deg);
+        @include respond-to('wide') {
+            padding-left: $hero-gap-content-and-cover;
+            transform: rotate(1deg);
+        }
     }
 
         .hero__cover-image {
