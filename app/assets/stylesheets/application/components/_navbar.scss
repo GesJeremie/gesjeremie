@@ -14,29 +14,46 @@ $navbar-delimiter-color: #eaeaea !default;
         .navbar__logo {
             display: inline-block;
             position: relative;
-            margin-right: double($spacing-unit);
+            margin-right: $spacing-unit;
             vertical-align: middle;
+
+            @include respond-to('medium') {
+                margin-right: double($spacing-unit);
+            }
 
             &:after {
                 position: absolute;
-                top: 20px;
-                right: -20px;
+                top: 10px;
+                right: -$spacing-unit;
                 width: 1px;
                 height: 25px;
                 background: $navbar-delimiter-color;
                 content: '';
+
+                @include respond-to('medium') {
+                    top: 20px;
+                    right: -20px;
+                }
             }
         }
 
             .navbar__logo-image {
-                width: 60px;
+                width: 40px;
+
+                @include respond-to('medium') {
+                    width: 60px;
+                }
             }
 
         .navbar__social {
             display: inline-block;
-            margin-left: double($spacing-unit);
+            margin-left: halve($spacing-unit);
             font-size: 16px;
             vertical-align: middle;
+
+            @include respond-to('medium') {
+                margin-left: double($spacing-unit);
+            }
         }
 
             .navbar__social-link {
@@ -51,3 +68,17 @@ $navbar-delimiter-color: #eaeaea !default;
         .navbar__actions {
             text-align: right;
         }
+
+            .navbar__action-contact {
+                @include respond-to('medium') {
+                    display: none;
+                }
+            }
+
+            .navbar__action-contact-me {
+                display: none;
+
+                @include respond-to('medium') {
+                    display: inline-block;
+                }
+            }
