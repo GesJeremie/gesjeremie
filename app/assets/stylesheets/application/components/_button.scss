@@ -27,6 +27,10 @@ $button-fixed-width:                            150px !default;
     .navbar__actions & {
         margin-top: 0;
     }
+
+    .footer & {
+        font-size: 20px;
+    }
 }
 
 .button + .button {

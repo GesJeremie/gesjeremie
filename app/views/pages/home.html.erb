@@ -47,18 +47,13 @@
           <h1 class="heading heading--1">Hey,<br/> Nice to meet you.</h1>
           <div class="hero__about">
             <p>I'm a <strong>Senior Full-Stack Developer</strong> with ~10 years experience born in France and currently living in Canada - Vancouver, BC.</p>
-            <p>I help your team ship great web applications, on time, with a nice look and feel.</p>
+            <p>I help your team ship great web applications with a nice look and feel.</p>
             <p>
-              When I'm not working with you - I spin up my little side projects:
-              <%= link_to 'Complete Food', 'https://completefood.guru/', class: 'link' %>,
-              <%= link_to 'Moonbeat', 'https://moonbeat.io/', class: 'link' %>,
-              <%= link_to 'WeedTalks', 'https://weedtalks.io/', class: 'link' %>,
-              <%= link_to 'Baby Sitting Bordeaux', 'https://babysittingbordeaux.fr/', class: 'link' %>
-              ...
+              When I'm not working with you - I spin up my little side projects under
+              <%= link_to 'lastartup.io', 'https://lastartup.io/', class: 'link' %> and contribute back to my favorite open-source project <%= link_to 'Workarea', 'https://github.com/workarea-commerce', class: 'link'  %>.
             </p>
             <p>
-              ... or I contribute <em>(a tad)</em> to open-source:
-              <%= link_to 'Faker Elixir', 'https://github.com/GesJeremie/faker-elixir', class: 'link' %>
+              Fuck yeah.
             </p>
           </div>
         </div>
@@ -97,21 +92,44 @@
   <div class="section section--experience">
     <h2 class="heading heading--2 section__title">Experience</h2>
 
+
+    <%= render layout: 'experience', locals: {
+        company: 'Syatt',
+        location: 'Vancouver, Canada',
+        role: 'Full-Stack Developer',
+        date: 'October 2019 - Present',
+        duration: 'Present',
+        cover: 'experience/syatt.png',
+        flag: 'flags/canada.png'
+      } do %>
+      <p>
+        We are a collective of e-commerce veterans that build, support and grow great online stores — without <%= link_to 'the usual bullshit', 'https://syatt.io', class: 'link link--secondary' %>.
+      </p>
+      <p>
+        I wear multiple hats but most of my day is spent getting shit done with Rails and <%= link_to 'Workarea', 'https://www.workarea.com/', class: 'link link--secondary' %> for
+        <%= link_to 'Hatley', 'https://www.hatley.com/', class: 'link link--secondary' %>,
+        <%= link_to 'Ren\'s Pets', 'https://www.renspets.com', class: 'link link--secondary' %>,
+        <%= link_to 'Shades Of Light', 'https://www.shadesoflight.com/', class: 'link link--secondary' %>,
+        <%= link_to 'SnuggleBugz', 'https://www.snugglebugz.ca/', class: 'link link--secondary' %>,
+        <%= link_to 'Yarn', 'https://www.yarn.com/', class: 'link link--secondary' %> ...
+      </p>
+    <% end %>
+
     <%= render layout: 'experience', locals: {
         company: 'Weblinc',
         location: 'Vancouver, Canada',
         role: 'Full-Stack Developer',
-        date: 'October 2016 - Present',
+        date: 'October 2016 - September 2019 · 3 years',
         cover: 'experience/weblinc.jpg',
         flag: 'flags/canada.png'
       } do %>
-      <p>I'm part of the Front-End and Back-End development of +15 online stores running on our proprietary platform <%= link_to 'Workarea', 'https://www.workarea.com/', class: 'link link--secondary' %>.</p>
+      <p>I was part of the Front-End and Back-End development of +15 online stores running on the open-source platform <%= link_to 'Workarea', 'https://www.workarea.com/', class: 'link link--secondary' %>.</p>
       <p>
-        We create rich and meaningful shopping experiences for our multi-million turnover customers such as:
-        <%= link_to 'Sanrio', 'https://www.sanrio.com/', class: 'link link--secondary' %>,
+        I was in charge to maintain and create new features for our multi-million turnover customers such as:
         <%= link_to 'Bhldn', 'https://www.bhldn.com/', class: 'link link--secondary' %>,
-        <%= link_to 'Lonely Planet', 'https://shop.lonelyplanet.com/', class: 'link link--secondary' %>,
         <%= link_to 'Heineken', 'https://heinekenusa.com', class: 'link link--secondary' %>,
+        <%= link_to 'Lonely Planet', 'https://shop.lonelyplanet.com/', class: 'link link--secondary' %>,
+        <%= link_to 'Sanrio', 'https://www.sanrio.com/', class: 'link link--secondary' %>,
         <%= link_to '...', 'https://www.workarea.com/pages/ecommerce-customer-stories', class: 'link link--secondary' %>
       </p>
     <% end %>
@@ -120,7 +138,7 @@
         company: 'FreeeWifi',
         location: 'Thessaloniki, Greece',
         role: 'Full-Stack Developer',
-        date: 'April 2016 - October 2016',
+        date: 'April 2016 - October 2016 · 7 months',
         cover: 'experience/freee_wifi.jpg',
         flag: 'flags/greece.png'
       } do %>
@@ -133,7 +151,7 @@
         company: 'Gotham Partners LLC',
         location: 'Baton Rouge, United States',
         role: 'Front-End Developer',
-        date: 'February 2014 - February 2016',
+        date: 'February 2014 - February 2016 · 2 years 1 month',
         cover: 'experience/virtual_safety.jpg',
         flag: 'flags/united_states.png'
       } do %>
@@ -148,7 +166,7 @@
         company: 'La Petite Box SAS',
         location: 'Bordeaux, France',
         role: 'Co-Founder',
-        date: 'February 2014 - February 2016',
+        date: 'February 2014 - February 2016 · 1 year 5 months',
         cover: 'experience/lapetitebox.jpg',
         flag: 'flags/france.png'
       } do %>
@@ -163,7 +181,7 @@
         company: 'Alcool Arcachon',
         location: 'Arcachon, France',
         role: 'Co-Founder',
-        date: 'May 2013 - Sept 2013',
+        date: 'May 2013 - Sept 2013 · 5 months',
         cover: 'experience/alcool_arcachon.jpg',
         flag: 'flags/france.png'
       } do %>
@@ -183,7 +201,7 @@
         company: 'Agence Volt',
         location: 'Bordeaux, France',
         role: 'Co-Founder',
-        date: 'Nov 2012 - Nov 2013',
+        date: 'Nov 2012 - Nov 2013 · 1 year 1 month',
         cover: 'experience/agence_volt.jpg',
         flag: 'flags/france.png'
       } do %>
@@ -196,7 +214,7 @@
   </div>
 
   <div class="footer">
-    <p>Wow, you reached the footer ... and hopefully we are now best friends.<p>
+    <p>Imagine a beautiful footer here 🌈<p>
       <%= mail_to config.social.email, class: 'button button--large button--secondary' do %>
         Hit me up :)
       <% end %>
