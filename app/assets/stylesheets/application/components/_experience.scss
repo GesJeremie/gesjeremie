@@ -17,13 +17,18 @@ $experience-background-gap: 40px !default;
     .experience__background {
         position: absolute;
         top: -$experience-background-gap;
-        right: -$experience-background-gap;
+        right: -($experience-background-gap / 4);
         bottom: $experience-background-gap * 2.5;
-        left: -$experience-background-gap;
+        left: -($experience-background-gap / 4);
         z-index: -1;
         background-color: $brown;
         border-top-right-radius: $experience-border-radius;
         border-top-left-radius: $experience-border-radius;
+
+        @include respond-to('medium') {
+            right: -$experience-background-gap;
+            left: -$experience-background-gap;
+        }
     }
 
     .experience__card {
